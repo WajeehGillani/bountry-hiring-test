@@ -58,7 +58,7 @@ const DataTable = () => {
       .catch((err) => {
         console.log("error in request", err);
       });
-  }, [data]);
+  }, []);
 
   // Methods
   const handleDelete = (id) => {
